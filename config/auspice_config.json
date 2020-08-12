@@ -1,0 +1,43 @@
+{
+  "title": "Nextstrain build for Spike Protein",
+  "maintainers": [
+    {"name": "iGEM Illinois", "url": "https://2020.igem.org/Team:UIUC_Illinois"}
+  ],
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "country",
+    "region"
+  ],
+  "panels": [
+     "tree",
+     "map"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "country",
+    "region"
+  ]
+}
