@@ -1,0 +1,1100 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "scale": [
+          [
+            "China",
+            "#4379CD"
+          ],
+          [
+            "Serbia",
+            "#73B583"
+          ],
+          [
+            "Bangladesh",
+            "#DFA43B"
+          ]
+        ],
+        "title": "Country",
+        "type": "categorical"
+      },
+      {
+        "key": "region",
+        "scale": [
+          [
+            "Europe",
+            "#E39B39"
+          ]
+        ],
+        "title": "Region",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "filters": [
+      "country",
+      "region"
+    ],
+    "genome_annotations": {
+      "S": {
+        "end": 3822,
+        "seqid": "config/sequence.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 3822,
+        "seqid": "config/sequence.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "geo_resolutions": [
+      {
+        "demes": {
+          "Bangladesh": {
+            "latitude": 24.4768783,
+            "longitude": 90.2932426
+          },
+          "China": {
+            "latitude": 35.000074,
+            "longitude": 104.999927
+          },
+          "Serbia": {
+            "latitude": 44.1534121,
+            "longitude": 20.55144
+          }
+        },
+        "key": "country"
+      },
+      {
+        "demes": {
+          "Europe": {
+            "latitude": 49.646237,
+            "longitude": 10.799454
+          }
+        },
+        "key": "region"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "iGEM Illinois",
+        "url": "https://2020.igem.org/Team:UIUC_Illinois"
+      }
+    ],
+    "panels": [
+      "tree",
+      "map"
+    ],
+    "title": "Nextstrain build for Spike Protein",
+    "updated": "2020-08-12"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "S: E298K, K300N, T302L, P812T"
+          },
+          "mutations": {
+            "S": [
+              "E298K",
+              "K300N",
+              "T302L",
+              "P812T"
+            ],
+            "nuc": [
+              "G892A",
+              "G900T",
+              "T903C",
+              "A904C",
+              "C905T",
+              "G906A",
+              "G2262A",
+              "A2418G",
+              "C2434A"
+            ]
+          }
+        },
+        "name": "MT415366",
+        "node_attrs": {
+          "country": {
+            "confidence": {
+              "China": 1.0
+            },
+            "entropy": -1.000088900581841e-12,
+            "value": "China"
+          },
+          "div": 0.0013094846293315577,
+          "num_date": {
+            "confidence": [
+              2020.0915300546449,
+              2020.0915300546449
+            ],
+            "value": 2020.0915300546449
+          },
+          "region": {
+            "confidence": {
+              "Asia": 1.0
+            },
+            "entropy": -1.000088900581841e-12,
+            "value": "Asia"
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "S: S750R"
+              },
+              "mutations": {
+                "S": [
+                  "S750R"
+                ],
+                "nuc": [
+                  "C2250A",
+                  "C2461T"
+                ]
+              }
+            },
+            "name": "MT415373",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "China": 1.0
+                },
+                "entropy": -1.000088900581841e-12,
+                "value": "China"
+              },
+              "div": 0.001570670094104649,
+              "num_date": {
+                "confidence": [
+                  2020.061475409836,
+                  2020.061475409836
+                ],
+                "value": 2020.061475409836
+              },
+              "region": {
+                "confidence": {
+                  "Asia": 1.0
+                },
+                "entropy": -1.000088900581841e-12,
+                "value": "Asia"
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "S: R752L"
+              },
+              "mutations": {
+                "S": [
+                  "R752L"
+                ],
+                "nuc": [
+                  "A2254C",
+                  "G2255T",
+                  "G2256T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C2461T"
+                    ]
+                  }
+                },
+                "name": "MT415374",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "China": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "China"
+                  },
+                  "div": 0.0020942598945119383,
+                  "num_date": {
+                    "confidence": [
+                      2020.1079234972678,
+                      2020.1079234972678
+                    ],
+                    "value": 2020.1079234972678
+                  },
+                  "region": {
+                    "confidence": {
+                      "Asia": 0.9999999999999999
+                    },
+                    "entropy": -9.99866855976916e-13,
+                    "value": "Asia"
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "S: R273M, F275Y, L276I, S750I"
+                      },
+                      "mutations": {
+                        "S": [
+                          "R273M",
+                          "F275Y",
+                          "L276I",
+                          "S750I"
+                        ],
+                        "nuc": [
+                          "G818T",
+                          "T824A",
+                          "C826A",
+                          "G2249T",
+                          "C2250A"
+                        ]
+                      }
+                    },
+                    "name": "MT415377",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "China": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "China"
+                      },
+                      "div": 0.003142497480067104,
+                      "num_date": {
+                        "confidence": [
+                          2020.1325136612022,
+                          2020.1325136612022
+                        ],
+                        "value": 2020.1325136612022
+                      },
+                      "region": {
+                        "confidence": {
+                          "Asia": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Asia"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "S: G485R"
+                      },
+                      "mutations": {
+                        "S": [
+                          "G485R"
+                        ],
+                        "nuc": [
+                          "G1453A",
+                          "T1455G"
+                        ]
+                      }
+                    },
+                    "name": "MT415368",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "China": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "China"
+                      },
+                      "div": 0.002356033731362224,
+                      "num_date": {
+                        "confidence": [
+                          2020.0997267759562,
+                          2020.0997267759562
+                        ],
+                        "value": 2020.0997267759562
+                      },
+                      "region": {
+                        "confidence": {
+                          "Asia": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Asia"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A3312G"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "S: A67S, F1103L"
+                          },
+                          "mutations": {
+                            "S": [
+                              "A67S",
+                              "F1103L"
+                            ],
+                            "nuc": [
+                              "G199T",
+                              "T3307C"
+                            ]
+                          }
+                        },
+                        "name": "MT415370",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "China": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "China"
+                          },
+                          "div": 0.002617700921861246,
+                          "num_date": {
+                            "confidence": [
+                              2020.0997267759562,
+                              2020.0997267759562
+                            ],
+                            "value": 2020.0997267759562
+                          },
+                          "region": {
+                            "confidence": {
+                              "Asia": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Asia"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "S: Y200S, I818S, V1104L"
+                          },
+                          "mutations": {
+                            "S": [
+                              "Y200S",
+                              "I818S",
+                              "V1104L"
+                            ],
+                            "nuc": [
+                              "A599C",
+                              "T600A",
+                              "T2453G",
+                              "G3310C"
+                            ]
+                          }
+                        },
+                        "name": "MT415371",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "China": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "China"
+                          },
+                          "div": 0.003141906770111868,
+                          "num_date": {
+                            "confidence": [
+                              2020.0997267759562,
+                              2020.0997267759562
+                            ],
+                            "value": 2020.0997267759562
+                          },
+                          "region": {
+                            "confidence": {
+                              "Asia": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Asia"
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000010",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "China": 0.9993860411397854
+                        },
+                        "entropy": 0.0055032442298424845,
+                        "value": "China"
+                      },
+                      "div": 0.002094227995780425,
+                      "num_date": {
+                        "confidence": [
+                          1991.4869062193045,
+                          2020.0997267759562
+                        ],
+                        "value": 2019.4032420912813
+                      },
+                      "region": {
+                        "confidence": {
+                          "Asia": 0.9998058332129964
+                        },
+                        "entropy": 0.0018536512774523348,
+                        "value": "Asia"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "S: G838S"
+                          },
+                          "mutations": {
+                            "S": [
+                              "G838S"
+                            ],
+                            "nuc": [
+                              "G2512A"
+                            ]
+                          }
+                        },
+                        "name": "MT415375",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "China": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "China"
+                          },
+                          "div": 0.002094260533225389,
+                          "num_date": {
+                            "confidence": [
+                              2020.1161202185792,
+                              2020.1161202185792
+                            ],
+                            "value": 2020.1161202185792
+                          },
+                          "region": {
+                            "confidence": {
+                              "Asia": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Asia"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "S: W152R"
+                              },
+                              "mutations": {
+                                "S": [
+                                  "W152R"
+                                ],
+                                "nuc": [
+                                  "T454C"
+                                ]
+                              }
+                            },
+                            "name": "MT415376",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "China": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "China"
+                              },
+                              "div": 0.0020942340121371363,
+                              "num_date": {
+                                "confidence": [
+                                  2020.1243169398906,
+                                  2020.1243169398906
+                                ],
+                                "value": 2020.1243169398906
+                              },
+                              "region": {
+                                "confidence": {
+                                  "Asia": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Asia"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "S: D614G"
+                                  },
+                                  "mutations": {
+                                    "S": [
+                                      "D614G"
+                                    ],
+                                    "nuc": [
+                                      "A1841G"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "MT521348",
+                                    "node_attrs": {
+                                      "country": {
+                                        "confidence": {
+                                          "Serbia": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "Serbia"
+                                      },
+                                      "div": 0.0020942279957804253,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.3784153005465,
+                                          2020.3784153005465
+                                        ],
+                                        "value": 2020.3784153005465
+                                      },
+                                      "region": {
+                                        "confidence": {
+                                          "Europe": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "Europe"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "MT434818",
+                                        "node_attrs": {
+                                          "country": {
+                                            "confidence": {
+                                              "Serbia": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12,
+                                            "value": "Serbia"
+                                          },
+                                          "div": 0.0020942279957804253,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.2581967213114,
+                                              2020.2581967213114
+                                            ],
+                                            "value": 2020.2581967213114
+                                          },
+                                          "region": {
+                                            "confidence": {
+                                              "Europe": 0.9999999999999999
+                                            },
+                                            "entropy": -9.99866855976916e-13,
+                                            "value": "Europe"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "MT359231",
+                                        "node_attrs": {
+                                          "country": {
+                                            "confidence": {
+                                              "Bangladesh": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12,
+                                            "value": "Bangladesh"
+                                          },
+                                          "div": 0.0020942279957804253,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.2581967213114,
+                                              2020.2581967213114
+                                            ],
+                                            "value": 2020.2581967213114
+                                          },
+                                          "region": {
+                                            "confidence": {
+                                              "Europe": 0.9999999999999999
+                                            },
+                                            "entropy": -9.99866855976916e-13,
+                                            "value": "Europe"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000015",
+                                    "node_attrs": {
+                                      "country": {
+                                        "confidence": {
+                                          "Bangladesh": 0.10509383518654358,
+                                          "China": 0.03490758737076875,
+                                          "Serbia": 0.8599985774426877
+                                        },
+                                        "entropy": 0.4835917072293961,
+                                        "value": "Serbia"
+                                      },
+                                      "div": 0.0020942279957804253,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.0271389282675,
+                                          2020.2581967213114
+                                        ],
+                                        "value": 2020.2581967213114
+                                      },
+                                      "region": {
+                                        "confidence": {
+                                          "Asia": 0.001704784456257902,
+                                          "Europe": 0.998295215543742
+                                        },
+                                        "entropy": 0.012570166332941913,
+                                        "value": "Europe"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000002",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "Bangladesh": 0.03235711432958225,
+                                      "China": 0.10400377399096836,
+                                      "Serbia": 0.8636391116794494
+                                    },
+                                    "entropy": 0.47301912438584315,
+                                    "value": "Serbia"
+                                  },
+                                  "div": 0.0020942279957804253,
+                                  "num_date": {
+                                    "confidence": [
+                                      2019.7851208474206,
+                                      2020.2242818330194
+                                    ],
+                                    "value": 2020.1100605481479
+                                  },
+                                  "region": {
+                                    "confidence": {
+                                      "Asia": 0.03922031973641542,
+                                      "Europe": 0.9607796802635846
+                                    },
+                                    "entropy": 0.16545831672942235,
+                                    "value": "Europe"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "MT415367",
+                                    "node_attrs": {
+                                      "country": {
+                                        "confidence": {
+                                          "China": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "China"
+                                      },
+                                      "div": 0.0018325223713976189,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.0915300546449,
+                                          2020.0915300546449
+                                        ],
+                                        "value": 2020.0915300546449
+                                      },
+                                      "region": {
+                                        "confidence": {
+                                          "Asia": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "Asia"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "MT415369",
+                                        "node_attrs": {
+                                          "country": {
+                                            "confidence": {
+                                              "China": 0.9999999999999999
+                                            },
+                                            "entropy": -9.99866855976916e-13,
+                                            "value": "China"
+                                          },
+                                          "div": 0.001832522371397619,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.0997267759562,
+                                              2020.0997267759562
+                                            ],
+                                            "value": 2020.0997267759562
+                                          },
+                                          "region": {
+                                            "confidence": {
+                                              "Asia": 0.9999999999999999
+                                            },
+                                            "entropy": -9.99866855976916e-13,
+                                            "value": "Asia"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "MT415372",
+                                        "node_attrs": {
+                                          "country": {
+                                            "confidence": {
+                                              "China": 0.9999999999999999
+                                            },
+                                            "entropy": -9.99866855976916e-13,
+                                            "value": "China"
+                                          },
+                                          "div": 0.001832522371397619,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.1051912568305,
+                                              2020.1051912568305
+                                            ],
+                                            "value": 2020.1051912568305
+                                          },
+                                          "region": {
+                                            "confidence": {
+                                              "Asia": 0.9999999999999999
+                                            },
+                                            "entropy": -9.99866855976916e-13,
+                                            "value": "Asia"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000014",
+                                    "node_attrs": {
+                                      "country": {
+                                        "confidence": {
+                                          "China": 0.9986886224943817,
+                                          "Serbia": 0.001102546031346874
+                                        },
+                                        "entropy": 0.010588636960836489,
+                                        "value": "China"
+                                      },
+                                      "div": 0.0018325223713976189,
+                                      "num_date": {
+                                        "confidence": [
+                                          2019.8548110452625,
+                                          2020.0997267759562
+                                        ],
+                                        "value": 2020.0997267759562
+                                      },
+                                      "region": {
+                                        "confidence": {
+                                          "Asia": 0.9994967257978359
+                                        },
+                                        "entropy": 0.00432520075826568,
+                                        "value": "Asia"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000009",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "China": 0.9914735444882791,
+                                      "Serbia": 0.007910736306835536
+                                    },
+                                    "entropy": 0.05132612153771021,
+                                    "value": "China"
+                                  },
+                                  "div": 0.0018325223713976187,
+                                  "num_date": {
+                                    "confidence": [
+                                      2019.6474884349652,
+                                      2020.0658118931287
+                                    ],
+                                    "value": 2019.96350173608
+                                  },
+                                  "region": {
+                                    "confidence": {
+                                      "Asia": 0.9951162812096296,
+                                      "Europe": 0.004883718790370452
+                                    },
+                                    "entropy": 0.030862184525422512,
+                                    "value": "Asia"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000007",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "Bangladesh": 0.004310544179640261,
+                                  "China": 0.9116682178536568,
+                                  "Serbia": 0.08402123796670284
+                                },
+                                "entropy": 0.3158827025972564,
+                                "value": "China"
+                              },
+                              "div": 0.0018325223713976184,
+                              "num_date": {
+                                "confidence": [
+                                  2019.1675493488215,
+                                  2020.031897030555
+                                ],
+                                "value": 2019.6372615044563
+                              },
+                              "region": {
+                                "confidence": {
+                                  "Asia": 0.9305126670270801,
+                                  "Europe": 0.06948733297291991
+                                },
+                                "entropy": 0.2523108133654345,
+                                "value": "Asia"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000006",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "China": 0.9914729502177761,
+                              "Serbia": 0.007911315379811497
+                            },
+                            "entropy": 0.05132903122205538,
+                            "value": "China"
+                          },
+                          "div": 0.0018325223713976182,
+                          "num_date": {
+                            "confidence": [
+                              2019.0841580444244,
+                              2019.9831110792975
+                            ],
+                            "value": 2019.511628117996
+                          },
+                          "region": {
+                            "confidence": {
+                              "Asia": 0.9951161711368528,
+                              "Europe": 0.004883828863147137
+                            },
+                            "entropy": 0.030862769775914355,
+                            "value": "Asia"
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000005",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "China": 0.998687474688041,
+                          "Serbia": 0.0011036157339203879
+                        },
+                        "entropy": 0.010596581587630289,
+                        "value": "China"
+                      },
+                      "div": 0.001832522371397618,
+                      "num_date": {
+                        "confidence": [
+                          2018.972481528762,
+                          2019.9491918942508
+                        ],
+                        "value": 2019.3867265039198
+                      },
+                      "region": {
+                        "confidence": {
+                          "Asia": 0.999496534747921
+                        },
+                        "entropy": 0.004326651530588325,
+                        "value": "Asia"
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000011",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "China": 0.9999931140721856
+                    },
+                    "entropy": 9.128436542294049e-05,
+                    "value": "China"
+                  },
+                  "div": 0.0018325223713976178,
+                  "num_date": {
+                    "confidence": [
+                      1983.5334565778653,
+                      2019.915272734477
+                    ],
+                    "value": 2019.1491410315489
+                  },
+                  "region": {
+                    "confidence": {
+                      "Asia": 0.9999987154533644
+                    },
+                    "entropy": 1.870955343255702e-05,
+                    "value": "Asia"
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000012",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "China": 0.9992588421259119
+                },
+                "entropy": 0.006498207028958243,
+                "value": "China"
+              },
+              "div": 0.0018325223713976176,
+              "num_date": {
+                "confidence": [
+                  1983.517801999465,
+                  2019.8948799259017
+                ],
+                "value": 2019.1098777005957
+              },
+              "region": {
+                "confidence": {
+                  "Asia": 0.9997741913500333
+                },
+                "entropy": 0.002121632517690494,
+                "value": "Asia"
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000013",
+        "node_attrs": {
+          "country": {
+            "confidence": {
+              "China": 0.9983784921158005,
+              "Serbia": 0.0011976609979914082
+            },
+            "entropy": 0.012968972440879438,
+            "value": "China"
+          },
+          "div": 0.0010472228631226634,
+          "num_date": {
+            "confidence": [
+              1950.9309599926912,
+              2019.8609474955815
+            ],
+            "value": 2017.272112034296
+          },
+          "region": {
+            "confidence": {
+              "Asia": 0.999500389236676
+            },
+            "entropy": 0.004297367699971264,
+            "value": "Asia"
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "country": {
+        "confidence": {
+          "Bangladesh": 0.0038287678779232587,
+          "China": 0.988493444544781,
+          "Serbia": 0.0076777875772955076
+        },
+        "entropy": 0.07013440741879387,
+        "value": "China"
+      },
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          1917.2511992233383,
+          2019.8270061732671
+        ],
+        "value": 2013.8243511024486
+      },
+      "region": {
+        "confidence": {
+          "Asia": 0.9956553712479002,
+          "Europe": 0.004344628752099955
+        },
+        "entropy": 0.02796480903345421,
+        "value": "Asia"
+      }
+    }
+  },
+  "version": "v2"
+}
